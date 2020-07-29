@@ -34,24 +34,24 @@
 <div id="form">
         <form onsubmit="return formValidation()">
                 <div class="input">
-                    <label>Name <span> *</span></label><br>
+                    <label id="a">Name <span> *</span></label><br>
                 <input type="text"placeholder="Name" id="name" onfocusout="validateName()"><br>
                 <span  id="name_message"></span>
             </div>
             <div class="input">
-                <label>Phone Number </label><br>
+                <label id="b">Phone Number </label><br>
               <input type="text" placeholder="Phone Number" id="phone" onfocusout="validatePhoneNumber()">
               <br>
                 <span  id="phone_message"></span>
             </div>
             <div class="input">
-                <label>Email Address <span> *</span></label><br>
+                <label id="c">Email Address <span> *</span></label><br>
              <input type="email" placeholder="Enter email address" id="email" onfocusout="validateEmail()">
              <br>
                 <span  id="email_message"></span>
             </div>
             <div class="textarea">
-                <label>Message <span> *</span></label><br>
+                <label id="d">Message <span> *</span></label><br>
              <textarea placeholder="Drop your message here" id="message" cols="30" rows="10" onfocusout="validateText()"></textarea>
              <br>
                 <span  id="text_message"></span>

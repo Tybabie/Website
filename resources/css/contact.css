@@ -48,7 +48,7 @@ header{
   color: rgb(0, 174, 238);
 }
 section{
-    height: 120vh;
+    height: 80vh;
     padding-top: 20vh;
   color: white;
   padding-left: 30px;
@@ -96,8 +96,13 @@ margin-bottom: 20px;
     outline: none;
     box-shadow: 1px 3px 1px 3px rgba(255, 255, 255, 0.068);
 }
+
+label span{
+    color: crimson;
+}
 button{
     padding: 10px;
+    margin-left: 50px;
     width: 150px;
     border-radius: 0px 15px;
     border: none;
@@ -143,6 +148,18 @@ button:hover{
         margin-left: 0px;
         margin-top: 50px;
     }
+    label#a{
+        margin-left: -200px; 
+    }
+    label#b{
+        margin-left: -150px;
+    }
+    label#c{
+        margin-left: -145px;
+    }
+    label#d{
+        margin-left: -180px;
+    }
     #paragraph{
         margin-left: 0px;
         
@@ -150,6 +167,10 @@ button:hover{
     section{
         padding-left: 20px;
         height: 150vh;
+        padding-bottom: 20vh;
+    }
+    button{
+        margin-left: 0px;
     }
     
 }

@@ -106,7 +106,7 @@ h1{
     }
     section{
         padding-left: 30px;
-        padding-bottom: 70vh;
+        padding-bottom: 75vh;
     }
     #about-us{
         margin:-30px auto auto;   
@@ -121,7 +121,7 @@ h1{
         display: none;  
     }
     #other nav ul li a i{
-            margin-right: 3px;
+            display: none;
     }
     #other nav{
         margin-left: -30px;
