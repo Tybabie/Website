@@ -8,7 +8,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    text-align: center;
+   
 }
 header{
     position: fixed;
@@ -48,7 +48,7 @@ header{
   color: rgb(0, 174, 238);
 }
 section{
-    height: 80vh;
+    height: 120vh;
     padding-top: 20vh;
   color: white;
   padding-left: 30px;
@@ -96,21 +96,6 @@ margin-bottom: 20px;
     outline: none;
     box-shadow: 1px 3px 1px 3px rgba(255, 255, 255, 0.068);
 }
-label#a{
-    margin-left: -200px; 
-}
-label#b{
-    margin-left: -150px;
-}
-label#c{
-    margin-left: -145px;
-}
-label#d{
-    margin-left: -180px;
-}
-label span{
-    color: crimson;
-}
 button{
     padding: 10px;
     width: 150px;
@@ -138,7 +123,7 @@ button:hover{
         display: none;  
     }
     #other nav ul li a i{
-            margin-right: 3px;
+            display: none;
     }
     #other nav{
         margin-left: -30px;
@@ -154,6 +139,7 @@ button:hover{
         display: block;
     }
     #form{
+        text-align: center;
         margin-left: 0px;
         margin-top: 50px;
     }
@@ -167,11 +153,7 @@ button:hover{
     }
     
 }
-@media only screen and (max-width: 320px){
-    #other nav ul li a i{
-            display: none;
-    }
-}
+
 @media only screen and (width: 768px){
     #form{
         margin-right: 50px;
