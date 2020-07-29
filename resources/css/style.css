@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url('../images/background-image7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+header{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+     box-shadow: 0px 8px 6px -6px #ccc;
+     -webkit-box-shadow:  0px 8px 6px -6px#ccc;
+     -moz-box-shadow: 0px 8px 6px -6px#ccc;
+ }
+ #flex{
+    display: flex;
+    justify-content: space-between;
+}
+#logo img{
+    width: 4em;
+        height: 4em;
+      
+}
+#other nav ul li{
+   display: inline-block;
+   padding: 0px 20px;
+
+}
+#other nav ul li a i{
+   margin-right: 8px;
+   }
+#other nav ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+}
+#other nav ul li a:hover{
+   color: rgb(0, 174, 238);
+}
+#other nav ul li a.active{
+  color: rgb(0, 174, 238);
+}
+section{
+    
+    color: white;
+    padding-top: 30vh;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+section h1{
+    font-size: 60px;
+}
+section p{
+    font-size: 20px;
+    line-height: 1.5;
+}
+@media only screen and (max-width: 760px){
+    #flex{
+        display: flex;
+        justify-content: center;
+    }
+    #logo img{
+        display: none;  
+    }
+    #other nav ul li a i{
+            margin-right: 3px;
+    }
+    #other nav{
+        margin-left: -30px;
+    }
+    #other nav ul li{
+    display: inline-block;
+    padding: 0px 10px
+    }
+    #other nav ul li a{
+    font-size: 20px; 
+    }
+    section{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    section h1{
+        font-size: 35px;
+    }
+    section p{
+        font-size: 18px;
+        line-height: 1.3;
+        
+    }
+}
+@media only screen and (max-width: 320px){
+    #other nav ul li a i{
+            display: none;
+    }
+    section h1{
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+     box-shadow: 0px 8px 6px -6px #ccc;
+     -webkit-box-shadow:  0px 8px 6px -6px#ccc;
+     -moz-box-shadow: 0px 8px 6px -6px#ccc;
+ }
+ #flex{
+     display: flex;
+     justify-content: space-between;
+ }
+ #logo img{
+     width: 4em;
+         height: 4em;
+       
+ }
+ #other nav ul li{
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+#other nav ul li a i{
+    margin-right: 8px;
+    }
+#other nav ul li a{
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: 700;
+   color: black;
+}
+#other nav ul li a:hover{
+    color: rgb(0, 174, 238);
+}
+#other nav ul li a.active{
+   color: rgb(0, 174, 238);
+}
+section{
+    
+    color: white;
+    padding-top: 20vh;
+    padding-left: 50px;
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/about-us.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+h1{
+    font-size:60px ;
+    line-height: 1;
+}
+#about{
+    color: rgb(0, 174, 238);
+}
+#paragraph{
+    margin-left: 90px;
+    margin-top: -100px;
+}
+#about-us{
+    background-color: white;
+    width: 80%;
+    padding: 30px 20px;
+    margin:-50px auto auto;
+    box-shadow: 5px 6px 50px 6px rgba(0, 0, 0, 0.15);
+}
+#about-us hr{
+    width: 120px;
+    border: 1px solid black;
+    
+}
+#about-us h1{
+    text-align: center;
+    font-size: 40px;
+    
+}
+#display-flex{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
+   
+}
+#display-flex p{
+    font-size: 20px;
+}
+@media only screen and (max-width: 768px){
+    #display-flex{
+        display: block; 
+    }
+    #about-us h1{
+        font-size: 30px;
+        
+    }
+    #display-flex p{
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    section{
+        padding-left: 30px;
+        padding-bottom: 65vh;
+    }
+    #about-us{
+        margin:-30px auto auto;   
+    }
+}
+@media only screen and (max-width: 760px){
+    #flex{
+        display: flex;
+        justify-content: center;
+    }
+    #logo img{
+        display: none;  
+    }
+    #other nav ul li a i{
+            margin-right: 3px;
+    }
+    #other nav{
+        margin-left: -30px;
+    }
+    #other nav ul li{
+    display: inline-block;
+    padding: 0px 10px
+    }
+    #other nav ul li a{
+    font-size: 20px; 
+    }
+}
+@media only screen and (max-width: 320px){
+    #other nav ul li a i{
+            display: none;
+    }
+}

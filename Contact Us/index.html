@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="../resources/css/contact.css">
+    <link rel="stylesheet" href="../resources/css/fontawesome/css/all.css">
+</head>
+<body>
+    <header>
+        <div id="flex">
+            <div id="logo">
+<img src="../resources/images/Annotation 2020-04-05 173150.jpg" alt="">
+            </div>
+            <div id="other">
+<nav>
+    <ul>
+        <li><a href="../index.html" > <i class="fa fa-home" > </i>Home</a></li>
+        <li><a href="../About/index.html"> <i class="fa fa-user" > </i>About Us</a></li>
+        <li><a href="index.html" class="active"> <i class="fa fa-envelope"> </i>Contact Us</a></li>
+        
+    </ul>
+</nav>
+            </div>
+        </div>
+    </header>
+    <section>
+    <div id="display-flex">
+        <div id="paragraph">
+            <h1>HELLO!</h1>
+<p>Want to drop us a line? <br>Want to know more about our products and services? <br> We're here for you 💙
+    <br>We look forward to hearing from you. </p>
+</div>
+<div id="form">
+        <form onsubmit="return formValidation()">
+                <div class="input">
+                    <label id="a">Name <span> *</span></label><br>
+                <input type="text"placeholder="Name" id="name" onfocusout="validateName()"><br>
+                <span  id="name_message"></span>
+            </div>
+            <div class="input">
+                <label id="b">Phone Number </label><br>
+              <input type="text" placeholder="Phone Number" id="phone" onfocusout="validatePhoneNumber()">
+              <br>
+                <span  id="phone_message"></span>
+            </div>
+            <div class="input">
+                <label id="c">Email Address <span> *</span></label><br>
+             <input type="email" placeholder="Enter email address" id="email" onfocusout="validateEmail()">
+             <br>
+                <span  id="email_message"></span>
+            </div>
+            <div class="textarea">
+                <label id="d">Message <span> *</span></label><br>
+             <textarea placeholder="Drop your message here" id="message" cols="30" rows="10" onfocusout="validateText()"></textarea>
+             <br>
+                <span  id="text_message"></span>
+            </div>
+            <div id="btn">
+                <button>Contact Us </button>
+            </div>
+        </form>
+    </div>
+</div>  
+    </section>
+
+    <script src="../resources/js/script.js"></script>
+</body>
+</html>
