@@ -82,7 +82,7 @@ margin-bottom: 20px;
     margin-top: 10px;
     width: 250px;
     outline: none;
-    box-shadow: 1px 3px 1px 3px rgba(255, 255, 255, 0.068);
+    box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 0.336);
 }
 #name_message, #phone_message, #email_message, #text_message {
     color: crimson;
@@ -92,7 +92,7 @@ margin-bottom: 20px;
     resize: none;
     width: 250px;
     outline: none;
-    box-shadow: 1px 3px 1px 3px rgba(255, 255, 255, 0.068);
+    box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 0.336);
 }
 
 label span{
@@ -101,8 +101,8 @@ label span{
 button{
     padding: 10px;
     margin-left: 50px;
-    width: 150px;
-    border-radius: 0px 15px;
+    width: 250px;
+    border-radius: 10px;
     border: none;
     cursor: pointer;
     font-size: 20px;
