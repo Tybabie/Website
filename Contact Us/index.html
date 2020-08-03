@@ -2,12 +2,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website</title>
+    <title>P.E.E Jalabias - Clothing Store</title>
+    <link rel="icon" href="../resources/images/Annotation 2020-04-05 173150.jpg">
     <link rel="stylesheet" href="../resources/css/contact.css">
     <link rel="stylesheet" href="../resources/css/fontawesome/css/all.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div id="flex">
             <div id="logo">
 <img src="../resources/images/Annotation 2020-04-05 173150.jpg" alt="">
@@ -24,13 +25,31 @@
             </div>
         </div>
     </header>
+
+    <header id="header">
+        <div class="flex">
+            <div class="logo">
+<img src="../resources/images/Annotation 2020-04-05 173150.jpg" alt="">
+            </div>
+            <div class="other">
+<nav>
+    <div class="dropdown">
+         <i class="fa fa-bars" onclick="show_hide()">Menu </i>
+         <div id="drop-content">
+            <li><a href="../index.html" > <i class="fa fa-home" > </i>Home</a></li>
+        <li><a href="../About/index.html"> <i class="fa fa-user" > </i>About Us</a></li>
+        <li><a href="index.html" class="active"> <i class="fa fa-envelope"> </i>Contact Us</a></li>
+         </div>
+    </div>
+</nav>
+            </div>
+        </div>
+
+    </header>
+
     <section>
     <div id="display-flex">
-        <div id="paragraph">
-            <h1>HELLO!</h1>
-<p>Want to drop us a line? <br>Want to know more about our products and services? <br> We're here for you 💙
-    <br>We look forward to hearing from you. </p>
-</div>
+       
 <div id="form">
         <form onsubmit="return formValidation()">
                 <div class="input">
@@ -52,7 +71,7 @@
             </div>
             <div class="textarea">
                 <label id="d">Message <span> *</span></label><br>
-             <textarea placeholder="Drop your message here" id="message" cols="30" rows="10" onfocusout="validateText()"></textarea>
+             <textarea placeholder="How can we help you?" id="message" cols="30" rows="10" onfocusout="validateText()"></textarea>
              <br>
                 <span  id="text_message"></span>
             </div>
@@ -61,6 +80,29 @@
             </div>
         </form>
     </div>
+    <div id="paragraph">
+
+        <h2>Address:</h2>
+        <Address>
+   
+           No 6, Animashaun Building
+           Beside MUSAT Filling Station, <br> Oke Gada
+           Ede North 202101
+           Ede
+           Nigeria
+        </Address>
+        <h2>Call us on:</h2>
+        <address>+2348135977949 &nbsp; &nbsp; +971551280560</address>
+        <div class="icons">
+            <h2>Social handles:</h2>
+           
+       <a href=""><i class="fab fa-2x fa-twitter"></i></a>
+       <a href="" target="_blank"><i class="fab fa-2x fa-facebook"></i></a>
+       <a href="" target="_blank"><i class="fab fa-2x fa-instagram"></i></a>
+       <a href="" target="_blank"><i class="fab fa-2x fa-whatsapp"></i></a>
+   
+        </div>
+   </div>
 </div>  
     </section>
 

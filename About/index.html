@@ -2,12 +2,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website</title>
+    <title>P.E.E Jalabias - Clothing Store</title>
+    <link rel="icon" href="../resources/images/Annotation 2020-04-05 173150.jpg">
     <link rel="stylesheet" href="../resources/css/about.css">
     <link rel="stylesheet" href="../resources/css/fontawesome/css/all.css">
+   
 </head>
 <body>
-    <header>
+    <header class="header">
         <div id="flex">
             <div id="logo">
 <img src="../resources/images/Annotation 2020-04-05 173150.jpg" alt="">
@@ -24,17 +26,39 @@
             </div>
         </div>
     </header>
+
+
+    <header id="header">
+        <div class="flex">
+            <div class="logo">
+<img src="../resources/images/Annotation 2020-04-05 173150.jpg" alt="">
+            </div>
+            <div class="other">
+<nav>
+    <div class="dropdown">
+         <i class="fa fa-bars" onclick="show_hide()">Menu </i>
+         <div id="drop-content">
+            <li><a href="../index.html" > <i class="fa fa-home" > </i>Home</a></li>
+        <li><a href="index.html" class="active"> <i class="fa fa-user" > </i>About Us</a></li>
+        <li><a href="../Contact Us/index.html"> <i class="fa fa-envelope"> </i>Contact Us</a></li>
+         </div>
+    </div>
+</nav>
+            </div>
+        </div>
+
+    </header>
+
     <section>
             <div>
                 <h1 id="about">ABOUT <br> US</h1>
                 <div id="paragraph">
-                    <p>Lorem ipsum dolor sit amet, elit. 
-                        Donec a diam lectus. Set sit amet ipsum mauris. <br>
-                         Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor
+                    <p>P.E.E Jalabias is an Islamic Clothing store located at Ede, Osun, 
+                        <br> Nigeria  with branches in Ibadan, Osogbo, Lagos, Cairo and Dubai.
                          </p>
-                <p>Lorem ipsum dolor sit amet, elit. 
-                    Donec a diam lectus. Set sit amet ipsum mauris. <br>
-                     Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor
+                <p>We look forward to having you as our exquisite customers, <br> with integrity, 
+                    we assure you a convincing trial.
+
                      </p>
                 </div>
             </div>
@@ -44,24 +68,34 @@
         <hr>
         <div id="display-flex">
             <div>
-                <p>Lorem ipsum dolor sit amet, consecteturadipisicing. 
-                    Donec a diam lectus. Set sit amet ipsum mauris. <br>
-                     Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor
+                <p>We deal Majorly with Wholesales, Retails and Dropshipping of Jalabias, Thaobes, Abaya,
+                     Turban, Shimak, Scarfs, Caps, Shamla and general Arab wears, 
+                     all at a very affordable and pocket friendly rate.
                      </p>
             </div>
             <div>
-                <p>Lorem ipsum dolor sit amet, consecteturadipisicing. 
-                    Donec a diam lectus. Set sit amet ipsum mauris. <br>
-                     Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor
+                <p>All our goods are of top notch quality, factory made and Imported   with guarantee, 
+                    warranty and assurance, Alhamdulillaah! Our Customer Feedback is our pride!
                      </p>
             </div>
             <div>
-                <p>Lorem ipsum dolor sit amet, consecteturadipisicing. 
-                    Donec a diam lectus. Set sit amet ipsum mauris. <br>
-                     Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor
+                <p>We deliver to all 36 States including the Federal Capital Territory
+                    and also Worldwide (UK, USA, Canada, Egypt, Dubai, India, Saudi Arabia: Just name it).
+
                      </p>
             </div>
         </div>
     </div>
+
+    <script>
+        function show_hide(){
+        let click = document.getElementById('drop-content')
+        if (click.style.display === 'none') {
+            click.style.display = 'block'
+        } else {
+            click.style.display = 'none'
+        }
+    }
+    </script>
 </body>
 </html>
